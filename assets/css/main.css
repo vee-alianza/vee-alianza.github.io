@@ -1884,12 +1884,11 @@ article.special>footer {
 
 .row>section,
 .row>article {
+	margin-top: -7em;
 	margin-bottom: 0;
-	margin: 10rem;
 	align-items: center;
 	padding-bottom: 0;
 }
-
 
 
 header {
@@ -2745,6 +2744,7 @@ body.homepage.is-preload #header:after {
 
 .carousel article {
 	display: inline-block;
+	border-radius: 1em;
 	width: 10em;
 	/* width: 35em; */
 	background: #fff;
