@@ -1879,12 +1879,18 @@ section.special>footer,
 article.special>header,
 article.special>footer {
 	text-align: center;
+
 }
 
 .row>section,
 .row>article {
 	margin-bottom: 0;
+	margin: 10rem;
+	align-items: center;
+	padding-bottom: 0;
 }
+
+
 
 header {
 	margin: 0 0 1em 0;
@@ -2295,6 +2301,7 @@ header .icon.circled {
 	background: #fff;
 	margin: 0 0 2em 0;
 	padding: 6em 0 6em 0;
+
 }
 
 .wrapper #features {
@@ -2306,6 +2313,7 @@ header .icon.circled {
 .wrapper.style2 {
 	padding-top: 0;
 }
+
 
 /* Header */
 
