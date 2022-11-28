@@ -635,6 +635,7 @@ hr:after {
 	padding-top: 80px;
 }
 
+
 @media screen and (max-width: 1680px) {
 
 	.row {
@@ -2046,6 +2047,7 @@ ul.icons {
 	border-radius: 4em;
 	display: inline-block;
 	padding: 0.35em 0.75em 0.35em 0.75em;
+	margin-top: 1.5em;
 	font-size: 1.25em;
 	cursor: default;
 	list-style: none;
@@ -2069,21 +2071,28 @@ ul.icons li a {
 }
 
 ul.icons li a:hover {
-	color: #ef8376;
+	/* color: #ef8376; */
+	color: #2aa0b5;
 }
 
 /* Form */
 
+form h2 {
+	margin-top: -1em;
+}
+
 form label {
 	display: block;
 	font-weight: 400;
-	color: #483949;
+	/* color: #483949; */
+	color: #2aa0b5;
 	margin: 0 0 1em 0;
 }
 
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
+form input[type="name"],
 form select,
 form textarea {
 	-webkit-appearance: none;
@@ -2103,6 +2112,7 @@ form textarea {
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="password"]:focus,
+form input[type="name"]:focus,
 form select:focus,
 form textarea:focus {
 	background: #fff;
@@ -2113,7 +2123,7 @@ form input[type="text"],
 form input[type="email"],
 form input[type="password"],
 form select {
-	line-height: 1em;
+	line-height: -1em;
 }
 
 form textarea {
@@ -2178,6 +2188,7 @@ table.default thead {
 
 table.default tfoot {
 	border-top: solid 2px #e5e5e5;
+
 }
 
 /* Button */
@@ -2212,6 +2223,7 @@ button:hover,
 .button:hover {
 	color: #fff;
 	background: #ef8376;
+
 }
 
 input[type="button"].alt,
@@ -2860,6 +2872,7 @@ body.homepage.is-preload #header:after {
 		padding-right: 2em;
 	}
 
+
 }
 
 /* Narrow */
@@ -3319,6 +3332,8 @@ body.homepage.is-preload #header:after {
 	.carousel article .image {
 		margin-bottom: 2em;
 	}
+
+
 
 
 }
